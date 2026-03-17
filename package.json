@@ -1,0 +1,27 @@
+{
+  "name": "dev-bump",
+  "version": "1.0.0",
+  "description": "A lightning-fast, zero-dependency CLI tool to automatically bump your npm package version for development or snapshot releases.",
+  "main": "lib/version.js",
+  "bin": {
+    "dev-bump": "./bin/dev-bump.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "bump",
+    "dev",
+    "snapshot",
+    "ci",
+    "cli",
+    "semver",
+    "prerelease"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
